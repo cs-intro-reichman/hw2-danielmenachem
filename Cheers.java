@@ -13,7 +13,7 @@ public class Cheers {
                 }
                 System.out.println("Give me " + aOrAn + " " + name.charAt(i) + ": " + name.charAt(i) + "!");
             }
-            System.out.println("What does it spell?");
+            System.out.println("What does that spell?");
             for (int i = 0; i < reps; i++) {
                 System.out.println(name + "!!!");
             }
