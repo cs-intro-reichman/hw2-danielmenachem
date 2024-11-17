@@ -7,11 +7,10 @@ public class CalcPi {
 	  double quarterPi = 0; 
 	  for (int i = 0; i < reps; i++) {
 		x = 1 / (double) divider;
-		System.out.println(x);
 		if (i % 2 == 0) {
-			pi = pi + x;
+			quarterPi = quarterPi + x;
 		} else {
-			pi = pi - x;  
+			quarterPi = quarterPi - x;  
 		} 
 		divider = divider + 2; 
 	  }
