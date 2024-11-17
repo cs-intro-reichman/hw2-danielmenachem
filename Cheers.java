@@ -9,7 +9,7 @@ public class Cheers {
                 if (anLetters.indexOf(name.charAt(i)) != -1){
                         aOrAn = "an";
                 } else {
-                        aOrAn = "a";
+                        aOrAn = "a ";
                 }
                 System.out.println("Give me " + aOrAn + " " + name.charAt(i) + ": " + name.charAt(i) + "!");
             }
