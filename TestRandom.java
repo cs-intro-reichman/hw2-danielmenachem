@@ -20,6 +20,9 @@ public  class  TestRandom {
 		}
 		System.out.println("> 0.5: " + greaterCount + " times");
 		System.out.println("<= 0.5: " + lessCount + " times");
-		System.out.println("Ratio: " + ratio);
+		if (ratio != 0) {
+			System.out.println("Ratio: " + ratio);
+		}
+		
 	}
 }
